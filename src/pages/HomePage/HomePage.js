@@ -8,10 +8,8 @@ function HomePage(){
     return (
       <>
         <h1 className="heading"> Home Page</h1>
-        <InfiniteScroll
-          url="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw&type=single&amount=50"
-          
-        ></InfiniteScroll>
+        <InfiniteScroll url="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw&type=single&amount=50"></InfiniteScroll>
+        <InfiniteScroll url="https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw&type=single&amount=50"></InfiniteScroll>
       </>
     );
 }
